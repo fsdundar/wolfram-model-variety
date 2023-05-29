@@ -7,7 +7,7 @@ Website: [Personal website](https://www.fsemih.org)
 This repository includes free softwares (released under the GPLv3) that can be used to perform various calculations about Leibnizian ideas on Wolfram Model, most important being the notion of _variety_. However it should be noted that you may need to modify the source codes to do what you want to do with the codes. We provide two programs, a Mathematica library and a C++ program.
 
 ## The Mathematica Library (`Variety.wl`)
-It is named as “Variety.wl” and depends on [SetReplace]([GitHub - maxitg/SetReplace: C++/Wolfram Language package for exploring set and graph rewriting systems](https://github.com/maxitg/SetReplace)) package in that it uses  _IsomorphicHypergraphQ_ function from that package. Variety.wl library is useful for experimenting with small hypergraphs and to produce the data (such as variety) to label multiway systems.
+It is named as “Variety.wl” and depends on [SetReplace](https://github.com/maxitg/SetReplace) package in that it uses  _IsomorphicHypergraphQ_ function from that package. Variety.wl library is useful for experimenting with small hypergraphs and to produce the data (such as variety) to label multiway systems.
 
 ## The C++ Program (`wmvar.cpp`)
 A C++ program named “wmvar.cpp” is provided which uses OpenMP to parallelize the tasks. It depends on two libraries, 1) Structures.h and 2) Variety.h.
@@ -25,7 +25,7 @@ The default use of `wmvar` is through `./wmvar -f file` where `file` contains on
 Moreover, you should change the line `omp_set_num_threads(8);` in `wmvar.cpp` to suit the number of cores you want to use.
 
 ### Note for Apple Silicon Users
-In order to use OpenMP on Apple Silicon, you may refer to [this guide]([c - How to install OpenMP on Mac M1? - Stack Overflow](https://stackoverflow.com/questions/71061894/how-to-install-openmp-on-mac-m1)) . According to a test on M1Max, the following line successfully compiled the code:
+In order to use OpenMP on Apple Silicon, you may refer to [this guide](https://stackoverflow.com/questions/71061894/how-to-install-openmp-on-mac-m1) . According to a test on M1Max, the following line successfully compiled the code:
 
 	`clang++ -w -Xclang -fopenmp -L/opt/homebrew/opt/libomp/lib -I/opt/homebrew/opt/libomp/include -lomp wmvar.cpp -o wmvar`
 
