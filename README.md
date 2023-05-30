@@ -29,5 +29,8 @@ In order to use OpenMP on Apple Silicon, you may refer to [this guide](https://s
 
 	`clang++ -w -Xclang -fopenmp -L/opt/homebrew/opt/libomp/lib -I/opt/homebrew/opt/libomp/include -lomp wmvar.cpp -o wmvar`
 
+# Manuscript
+Reference to manuscript (where we used the codes shared here) will be included here, once it is published. It was sent to a journal when this repo became available.
+
 # Acknowledgements
 The codes that we share in this repo are products of a study supported by a TÜBİTAK 1002-A project under the grant number 122F297.
