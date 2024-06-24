@@ -31,7 +31,7 @@ In order to use OpenMP on Apple Silicon, you may refer to [this guide](https://s
 
 # Manuscript
 
-Furkan Semih Dündar. "A Case Study for Leibnizian Ideas in Wolfram Model" Foundations of Physics. 54, 43 (2024). [link](https://link.springer.com/article/10.1007/s10701-024-00777-3)
+Furkan Semih Dündar. "A Case Study for Leibnizian Ideas in Wolfram Model" Foundations of Physics. 54, 43 (2024). [https://doi.org/10.1007/s10701-024-00777-3](https://doi.org/10.1007/s10701-024-00777-3)
 
 # Citation
 
